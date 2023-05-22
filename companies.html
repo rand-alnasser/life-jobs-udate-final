@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="sweetalert2.min.css">
+</head>
+<body>
+ 
+  <header> 
+
+    <span id="logoBox">
+    <h1 id="h1header"> </h1>
+    <img src="image/Logo.png" id="Logoimage" />
+    </span>
+    <nav>
+      <ul>
+        <li>
+          <a href="home.html"> home </a>
+        </li>
+        <li>
+          <a href="about_us.html">about us </a>
+        </li>
+        <li>
+          <a href="cv.html">CV Creation </a>
+        </li>
+        <li>
+          <a href="companies.html">Companies </a>
+        </li>
+        <li>
+          <a href="jobs.html">Jobs </a>
+        </li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <div class="container">
+    <form id="form" method="post" action="http://localhost/cv/mph2.php">
+      
+      
+      <div class="form-group-resum">
+        <label for="date-of-birth">Please attach your job advertisement</label>
+        <!-- <div class="dob-input"> -->
+          <label for="resume" class="file-label">Choose File</label>
+          <input type="file" name="resume" id="resume" accept=".pdf,.doc,.docx,.png,.jpeg">
+          
+    
+        <!-- <button class="button" type="submit">Submit</button> -->
+      </div>
+      <div class="form-group">
+        <label for="full-name"> Company name *</label>
+        <input type="text" id="Company-name" name="Company-name" placeholder="Enter your cmpany name ..." required> 
+        <br>
+        <div class="form-group">
+          <label for="email">Email Address *</label>
+          <input type="email" id="email" name="email" placeholder="Enter email address company..  "  required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number *</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number..." required>
+      </div>
+      <div class="form-group">
+        <label for="phone"> The number of employees required *</label>
+        <input type="tel" id="employees-required" name="employees-required" placeholder="Enter employees required number..." required>
+      </div>
+      <div class="form-group">
+        <label for="phone"> The location of the job *</label>
+        <input type="tel" id="location" name="location" placeholder="Enter location of the job ..." required>
+      </div>
+     
+      <div class="form-group">
+       
+     
+      
+       
+      <!-- Education fields go here -->
+      <div class="form-group">
+        <label for="university-degree">Which of the following educational is required for the job?</label>
+        <select id="university-degree" name="university-degree" required>
+          <option value="High school diploma or equivalent">High school diploma or equivalent</option>
+          <option value="Associate's degree">Associate's degree</option>
+          <option value="Bachelor's degree">Bachelor's degree</option>
+          <option value="Master's degree">Master's degree</option>
+          <option value="Doctoral 's degree">Doctoral 's degree</option>
+          
+        </select>
+      </div>
+      
+    
+      
+   
+     
+      
+      <!-- Current employment fields go here -->
+
+     
+      
+      <div class="form-group">
+        <label for="current-employer">What are the required experiences?</label>
+        <input type="text" id="required-experiences" name="required-experiences" placeholder="Enter your current employer..." required>
+      
+      <br>
+      
+    </div>
+   
+      
+      
+   
+      
+      
+       
+      <!-- Contact details fields go here -->
+     
+     
+      <!-- Additional contact details fields go here -->
+      
+      <button class="button" type="submit">Submit</button>
+    </form>
+  </div>
+</div>
+  
+  <section class="main">
+  
+    <!-- Start Section -->
+     
+     <ul class="job-list">
+          <li>
+            <h3>شركة امازون <br> Amazon company</h3>
+            <img src="image/59e70ca792cda_Amazon.png">
+            <br>
+             <a href="https://www.amazon.sa/" > amazon.com</a>
+             <br>
+             <p>Location: USA</p>
+             <p> 8008500931</p>
+             <br>
+
+            <div class="job-actions">
+              <button class="select-job" type="button"> Select  </button>
+            </a>
+            </div>
+          </li>
+          <li>
+          <li>
+            <h3> شركة نوكيا <br> Nokia company </h3>
+            <p></p>
+            <img src="image/59e70b4a6a500_Nokia.png">
+            <br>
+            <a href="https://www.nokia.com/"> nokia.com</a>
+            <br>
+            <p>Location: USA</p>
+            <p> 01284817088</p>
+            <br>
+             
+            <div class="job-actions">
+              <button class="select-job" type="button">Select  </button>
+             </a>
+            </div>
+          </li>
+          <li>
+          <li>  
+            <h3> شركة ميكروسوفت<br>Microsoft</h3>
+            <p></p>
+            <img src="image/59d1e91569743_Microsoft-Logo-Transparent-Background.png">
+            <br>
+            <a href="https://www.microsoft.com/ar-sa/"> microsoft.com</a>
+            <br>
+            <p>Location: City Riyadh</p>
+            <p> 01284817088</p>
+            <br>
+           
+            <div class="job-actions">
+              <button class="select-job" type="button">Select  </button>
+               </a>
+            </div>
+          </li>
+          <li>
+          <li>
+            <h3>   ارامكو<br>Aramco <h3>
+            <p>  </p>
+           <img src="image/5a93beb3c655a_123.jpg">
+
+           <br>
+           <a href="https://www.aramco.com/ar" > aramco.com</a>
+           <br>
+           <p>Location: City Riyadh</p>
+           <p> 1115 427 (012)</p>
+           <br>
+            <div class="job-actions">
+              <button class="select-job" type="button">Select  </button>
+              </a>
+            </div>
+          </li>
+          <li>
+          <li>
+            <h3>  شركة تنقيب <br> saudi tanqeeb </h3>
+            <p> </p>
+          <img src="image/thumb2_599d8881d577f_tanqeeb_ar.png">
+
+          <br>
+          <a href="https://saudi.tanqeeb.com/en" >tanqeeb.com</a>
+          <br>
+          <p>Location: City Riyadh</p>
+          <p> 8008500931</p>
+          <br>
+            <div class="job-actions">
+              <button class="select-job" type="button">Select  </button>
+               </a>
+            </div>
+          </li>
+          <li>
+          <li>
+            <h3> شركة ابل <br>Apple company </h3>
+            <p> </p>
+           <img src="image/5a8199297f117_apple-icon.png">
+
+           <br>
+           <a href="https://www.apple.com/sa-ar/" > apple.com</a>
+           <br>
+           <p>Location: City Riyadh</p>
+           <p> 800844 9724</p>
+           <br>
+            <div class="job-actions">
+              <button class="select-job" type="button">Select  </button>
+             </a>
+            </div>
+          </li>
+          <li>
+          <li>
+            <h3> شركة كريم   <br> Creem compamy </h3>
+            <p>Location: City Medina</p>
+            <img src="image/59e6001b340cb_Careem.png">
+
+            <br>
+            <a href="https://drive.careem.com/ar-sa/riyadh" > careem.com</a>
+            <br>
+            <p>Location: City Riyadh</p>
+            <p> 8008500931</p>
+            <br>
+            <div class="job-actions">
+              <button class="select-job" type="button">Select  </button>
+              </a>
+            </div>
+          </li>
+          <li>
+          <li> 
+        </ul>
+      </div>
+    </section>
+ 
+  <section id="spotlight">
+    <h2></h2>
+    <div class="company-bar">
+      <div class="company-row">
+        <div class="company">
+          <img src="company1-logo.png" alt="Company 1 Logo">
+          <h3>Company Name 1</h3>
+        </div>
+        <div class="company">
+          <img src="company2-logo.png" alt="Company 2 Logo">
+          <h3>Company Name 2</h3>
+        </div>
+        <div class="company">
+          <img src="company2-logo.png" alt="Company 2 Logo">
+          <h3>Company Name 2</h3>
+        </div>
+        <div class="company">
+          <img src="company2-logo.png" alt="Company 2 Logo">
+          <h3>Company Name 2</h3>
+        </div>
+        <div class="company">
+          <img src="company2-logo.png" alt="Company 2 Logo">
+          <h3>Company Name 2</h3>
+        </div>
+        <div class="company">
+          <img src="company2-logo.png" alt="Company 2 Logo">
+          <h3>Company Name 2</h3>
+        </div>
+        <div class="company">
+          <img src="company2-logo.png" alt="Company 2 Logo">
+          <h3>Company Name 2</h3>
+        </div>
+        <div class="company">
+          <img src="company2-logo.png" alt="Company 2 Logo">
+          <h3>Company Name 2</h3>
+        </div>
+        <div class="company">
+          <img src="company2-logo.png" alt="Company 2 Logo">
+          <h3>Company Name 2</h3>
+        </div>
+        <div class="company">
+          <img src="company2-logo.png" alt="Company 2 Logo">
+          <h3>Company Name 2</h3>
+        </div>
+        <div class="company">
+          <img src="company2-logo.png" alt="Company 2 Logo">
+          <h3>Company Name 2</h3>
+        </div>
+        Add more company listings -->
+
+      </div>
+    </div>
+    
+  </section>
+      </div>
+    </div>
+  </section> -->
+  
+  
+  
+
+
+
+
+
+</main>
+    <br>
+  <footer>
+    <p>&copy;  A L E J R R  2023 /  ALL RIGHTS RESERVED
+    </p>
+  </footer>
+  <script src="script.js"></script>
+  <script src="sweetalert2.min.js"></script>
+</body>
+</html>
+ 
+<!-- 
+ <script type="module">   -->
+    // Import the functions you need from the SDKs you need
+    // import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js";
+    // import { getDatabase } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-database.js";
+    // import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // const firebaseConfig = {
+    //   apiKey: "AIzaSyCW0Rl1yai0UW6_arzxpV4GJfr3WTwlO3w",
+    //   authDomain: "website-life-jobs.firebaseapp.com",
+    //   projectId: "website-life-jobs",
+    //   storageBucket: "website-life-jobs.appspot.com",
+    //   messagingSenderId: "160022681355",
+    //   appId: "1:160022681355:web:7af91a34f9c10082f0b40e"
+    // };
+  
+    // Initialize Firebase
+//     const app = initializeApp(firebaseConfig);
+//     const database = getDatabase(app);
+//     const auth = getAuth();
+
+//     sighUp.addEventListener('click', (e) => {
+
+// var email = document.getElementById('email').value;
+// var password = document.getElementById('password').value;
+// var username = document.getElementById('username').value;
+
+
+  //       createUserWithEmailAndPassword(auth, email, password)
+  // .then((userCredential) => {
+  //   // Signed in 
+  //   const user = userCredential.user;
+ 
+    // ...
+//   })
+//   .catch((error) => {
+//     const errorCode = error.code;
+//     const errorMessage = error.message;
+//     // ..
+//     alert('errorMessage');
+//   });
+
+//     });
+
+//     if (app){
+//       console.log("Initializing Firebase is successful") ;
+//     }
+//     else {
+//       console.log("Initializing Firebaseis not successful") ;
+//     }
+
+  

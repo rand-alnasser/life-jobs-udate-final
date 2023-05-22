@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Creation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="sweetalert2.min.css">
+</head>
+<body>
+ <!--  بدايه الصفحه  -->
+  <header> 
+
+    <span id="logoBox">
+    <h1 id="h1header"> </h1>
+    <img src="image/Logo.png" id="Logoimage" />
+    </span>
+
+
+    <nav>
+      <ul>
+        <li>
+          <a href="home.html"> home </a>
+        </li>
+        <li>
+          <a href="about_us.html">about us </a>
+        </li>
+        <li>
+          <a href="cv.html">CV Creation </a>
+        </li>
+        <li>
+          <a href="companies.html">Companies </a>
+        </li>
+        <li>
+          <a href="jobs.html">Jobs </a>
+        </li>
+      
+      </ul>
+    </nav>
+    </nav>
+
+  </header>
+  <!-- نهايه الهيدر القائممه العلويه  -->
+   
+      <div class="container">
+        <form id="form" method="post" action="http://localhost/cv/mph.php">
+          
+          
+          <div class="form-group-resum">
+            <label for="date-of-birth">Please attach your resume</label>
+            <!-- <div class="dob-input"> -->
+              <label for="resume" class="file-label">Choose File</label>
+              <input type="file" name="resume" id="resume" accept=".pdf,.doc,.docx">
+              
+        
+            <!-- <button class="button" type="submit">Submit</button> -->
+          </div>
+          <div class="form-group">
+            <label for="full-name">Full Name </label>
+            <input type="text" id="full-name" name="full-name" placeholder="Enter your full name..." required> 
+            <br>
+            
+          </div>
+          <div class="form-group">
+            <label for="date-of-birth">Date of Birth *</label>
+            <div class="dob-input">
+              <input type="number" id="day" name="day" placeholder="Day" min="1" max="31" required>
+              <input type="number" id="month" name="month" placeholder="Month" min="1" max="12" required>
+              <input type="number" id="year" name="year" placeholder="Year" min="1900" max="2099" required>
+            </div>
+            
+          </div>
+         
+          <div class="form-group">
+            <label for="gender">Gender *</label>
+            <div class="radio-group">
+              <input type="radio" id="male" name="gender" value="Male" > Male
+              <input type="radio" id="female" name="gender" value="Female" > Female
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="marital-status">Marital Status *</label>
+            <select id="marital-status" name="marital-status" required>
+              <option value="Single">Single</option>
+              <option value="Married">Married</option>
+            </select>
+          </div>
+          <!-- Other personal information fields go here -->
+          
+          <h2>Education</h2>
+          <!-- Education fields go here -->
+          <div class="form-group">
+            <label for="university-degree">Which of the following educational do you possess?</label>
+            <select id="university-degree" name="university-degree" required>
+              <option value="High school diploma or equivalent">High school diploma or equivalent</option>
+              <option value="Associate's degree">Associate's degree</option>
+              <option value="Bachelor's degree">Bachelor's degree</option>
+              <option value="Master's degree">Master's degree</option>
+              <option value="Doctoral 's degree">Doctoral 's degree</option>
+              
+            </select>
+          </div>
+          
+        
+          
+       
+          <h2>Current Employment</h2>
+          
+          <!-- Current employment fields go here -->
+
+          <div class="form-group">
+            <label for="current-job-title">Current Job Title  </label>
+            <input type="text" id="current-job-title" name="current-job-title" placeholder="Enter your current job title..." required>
+            <br>
+            
+          </div>
+          
+          <div class="form-group">
+            <label for="current-employer">How are your experiences </label>
+            <input type="text" id="current-employer" name="current-employer" placeholder="Enter your current employer..." required>
+          
+          <br>
+          
+        </div>
+       
+          
+          
+       
+          <!-- <div class="form-group">
+            <label for="salary-range">What is your proficiency level in English ?</label>
+            <select id="salary-range" name="salary-range" required>
+              <option value="Option1">Beginner</option>
+              <option value="Option2">Intermediate</option>
+              <option value="Option3">Fluent</option>
+            </select>
+          </div> -->
+          
+          <h2>Contact Details</h2>
+          <!-- Contact details fields go here -->
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address..." required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number *</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number..." required>
+          </div>
+          <!-- Additional contact details fields go here -->
+          
+          <button class="button" id="submit" name="submit" type="submit" value="Submit">Submit</button>
+        </form>
+      </div>
+</div>
+
+
+</form>
+</div>
+  
+<br>     
+<br>     
+<br>     
+<br>     
+<br>     
+
+
+   <footer>
+   <p>&copy;  A L E J R R  2023 /  ALL RIGHTS RESERVED
+    </p> 
+  
+  </footer>  
+  <script src="script.js"></script>
+  <script src="sweetalert2.min.js"></script>
+</body>
+</html>

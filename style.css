@@ -1,0 +1,881 @@
+/* نجمه يعني الكل  */
+* {
+    padding: 0;
+    margin: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+    
+
+    /*  اكيد تعرفونه  */
+    body {
+      background-color: #d3c2ab;
+        font-family: 'Open Sans', sans-serif;
+        margin: 0px;
+        min-height: 100%;
+        width: 100%;
+        font-size: 16px;
+        line-height: 1.5;
+      
+    }
+     
+    
+    
+    section {
+      padding: 300px 200px;
+    
+    
+    color: #204969;
+    
+    }
+    .section main{
+    
+      width: 100%;
+      min-height: 100vh;
+      display: block;
+      align-items: center ;
+    
+    
+    }
+    section main-home{
+      display: none;
+     
+    
+     
+    
+    
+    }
+
+
+    /* الصفحه الاولى */
+    .right-home img{
+    
+      width: 450px;
+      height: 500px;
+     background-size: cover;
+     margin-left: 900px;
+     margin-top: -220px;
+     margin-bottom: 50px;
+    
+    
+    }
+    
+    /*  */
+    
+    .right-about img{
+    
+      width: 500px;
+      height: 500px;
+     background-size: cover;
+     margin-left: 900px;
+     margin-top: -220px;
+     margin-bottom: 50px;
+
+    
+    }
+
+    /*  */
+    .right-join img{
+    
+      width: 450px;
+      height: 400px;
+     background-size: cover;
+     margin-left: 900px;
+     margin-top: -250px;
+     margin-bottom: 50px;
+    
+    }
+    /* الروابط والانتقال بين الصفحات */
+    a {
+      
+        text-decoration: none;
+        /* display: inline; */
+    }
+    
+
+
+    span{
+      color: #fff;
+      font-size: 14px;
+      font-weight: bold;
+      padding-left: 5px;
+      padding-right: 5px;
+    
+    }
+
+    /* الحاويه الموجوده في صفحه cv, jobs,.... */
+    
+    .container {
+      background-color: #d3c2ab;
+        width: 1170px;
+        
+        margin-left: 666px;
+        margin-top: 80px;
+        box-sizing: border-box;
+       
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-top: 50px;
+      
+    }
+    
+     /* قياسات شكل الحاويه  */
+    
+    .form-container{
+      position: absolute;
+       
+        width: 1170px;
+        width: 100%;
+        padding-top:40px ;
+    }
+    .form-container label{
+        display:flow-root;
+       
+       
+    }
+       
+    
+    
+    form {
+      
+        margin-top: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #eee;
+        margin-bottom: 20px;
+       
+    }
+    
+    
+    
+    /* العناوين  */
+    h2 {
+      margin-top: 0;
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 10px;
+      color: #333;
+      
+    } 
+    
+
+/* الكلام  */
+
+    p {
+      font-size: 16px;
+      font-weight: 400;
+      color: #666;
+      margin-bottom: 5px;
+    } 
+    
+    /* الجزء العلوي  */
+    header {
+    
+      height: 100px;
+      width: 100%;
+      display: inline-;
+      
+      
+      }
+      
+    #logoBox{
+       background-color: #d3c2ab;;
+      width: 30%;
+      height: 50px;
+      float: left;
+    }
+    
+    #h1header{
+      
+      color: #0077cc;
+      float: right;
+      line-height: 100px;
+      
+    }
+    
+    #Logoimage{
+      
+       margin-top:-60px;
+       line-height: 100px;
+      border-color: 50%;
+     
+      
+    }
+    
+    
+     nav a {
+      text-decoration: none;
+      color: #204969;
+      font-weight: bold;
+      display: inline-block;
+    }
+    nav a:hover {
+      background-color: #204969;
+      color: #fff;
+      height: 100%;
+      width: 100%;
+      }
+    
+    
+    nav ul {
+      /* display: flex; */
+      list-style: none;
+    }
+    
+    nav li {
+     
+      display: inline-block;
+      line-height: 100px;
+      width: 100px;
+      background-color: #d3c2ab;
+      text-align: center;
+    }
+    
+    
+    
+    button[type="submit"] {
+      background-color: #04AA6D;
+      color: white;
+      padding: 16px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 150px;
+      opacity: 0.9;
+    } 
+
+    button[type="submit"]:hover {
+    background-color: #005ea6;
+    
+    }
+    button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    
+    } 
+    
+    
+    
+    nav {
+      width: 70%;
+    text-align: right;
+      -webkit-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+     
+      padding: 50px;
+    }
+
+    /* ذيل الصفحة  */
+    
+    footer {
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #204969;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 0.25rem;
+    height: 20px;
+    }
+    
+    footer p{
+    color: #fff;
+    text-decoration: none;
+    font-size: 10px;
+    }
+    
+    /* مقاست شكل صفحه cv  */
+    
+    #cv-form {
+      display: flex;
+      flex-direction: column;
+      align-items:center;
+      margin-top: 50px;
+    }
+    #cv-form h1 {
+      margin-bottom: 20px;
+      }
+      
+      #cv-form form {
+      display: flex;
+      flex-direction: column;
+      }
+      
+      #cv-form form div {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+      }
+      
+      #cv-form form label {
+      margin-bottom: 5px;
+      }
+      
+      #cv-form form input[type="text"],
+      #cv-form form input[type="file"],
+      #cv-form form textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      }
+      
+      #cv-form form .photo-upload {
+      display: flex;
+      align-items: center;
+      }
+      
+      #cv-form form .photo-upload label {
+      margin-left: 10px;
+      padding: 10px;
+      background-color: #333;
+      color: #fff;
+      border-radius: 5px;
+      cursor: pointer;
+      }
+      
+      #cv-form form .photo-upload label:hover {
+      background-color: #666;
+      }
+      
+      #cv-form form button {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.2s;
+      }
+      
+      #cv-form form button:hover {
+      background-color: #666;
+      }
+      
+      /* Personal Information Form Styles */
+      
+      #personal-info-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+      }
+      
+      #personal-info-form h1 {
+      margin-bottom: 20px;
+      }
+      
+      #personal-info-form form {
+      display: flex;
+      flex-direction: column;
+      }
+      
+      #personal-info-form form div {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+      }
+      
+      #personal-info-form form label {
+      margin-bottom: 5px;
+      }
+      
+      #personal-info-form form input[type="number"],
+      #personal-info-form form input[type="text"],
+      #personal-info-form form textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      }
+      
+      #personal-info-form form button {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.2s;
+      }
+      
+      #personal-info-form form button:hover {
+      background-color: #666;
+      }
+    
+    
+      /* Eduction Form Styles  */
+      
+    .form-group-resum{
+      margin-bottom: 20px;
+      margin-right: 500px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+    
+    label {
+      display: block;
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    
+    input[type="text"],
+    input[type="number"],
+    input[type="email"],
+    input[type="password"],
+    input[type="tel"],
+    select {
+      width: 50%;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+    
+    .radio-group input[type="radio"] {
+      margin-right: 10px;
+    }
+    
+    
+    
+    /* Existing styles */
+    .btn-container {
+      margin-left: 50px;
+      margin-bottom: 50;
+      display: flex;
+      justify-content:first baseline;
+    }
+    
+    .btn-container button {
+      width: 48%;
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      border-radius: 4px;
+      
+    }
+    
+    .btn-container button.login-btn {
+      width: 48%;
+      background-color: #4CAF50;
+      color: #fff;
+    }
+    
+    .btn-container button.forgot-password-btn {
+      
+      width: 48%;
+      background-color: #008CBA;
+      color: #fff;
+    }
+    
+    .btn-container button.create-account-btn {
+      width: 48%;
+      background-color: #f44336;
+      color: #fff;
+      text-decoration: none;
+    
+    
+    }
+    
+    
+     /* مقاست شكل  clssesصفحه فلاتر   */
+    
+    
+    
+    .filter-section {
+      margin-bottom: 20px;
+    }
+    
+    .filter-section label {
+      font-weight: bold;
+    }
+    
+    .filter-section select,
+    .filter-section input[type="text"] {
+      
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    
+
+ /*  مقاست شكل clsses صفحه jobs  */
+
+    .job-list {
+      background-color: #d3c2ab;
+      text-align: center;
+      list-style-type:none;
+      padding: 0;
+    }
+    
+    .job-list li {
+      
+      margin-bottom: 20px;
+      padding: 20px;
+      background-color: #d3c2ab;
+      border-radius: 4px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .job-list h3 {
+      margin-top: 0;
+    }
+    
+    .job-list p {
+      margin-bottom: 10px;
+    }
+    .job-actions {
+      
+    
+      justify-content: space-between;
+      margin-top: 10px;
+    }
+    
+    .job-actions button {
+      
+      padding: 8px 16px;
+      font-size: 14px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    .job-actions button.select-job {
+      text-align: center;
+      
+      background-color: #4CAF50;
+      color: #fff;
+    }
+    
+    .job-actions button.view-details {
+      text-align: center;
+      background-color: #008CBA;
+      
+      color: #fff;
+    }
+
+    .job-info-wrapper {
+      
+     width: 450px;
+      height: 500px;
+     background-size: cover;
+     margin-left: 900px;
+     margin-top: 220px;
+     margin-bottom: 50px;
+    
+    }
+    
+    
+  
+
+/*   */
+  
+    
+    .job {
+      background-color: #d3c2ab;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .job h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    
+    .job p {
+      margin-bottom: 5px;
+    }
+    
+    .job a {
+      display: inline-block;
+      background-color: #4286f4;
+      color: #d3c2ab;
+      text-decoration: none;
+      padding: 5px 10px;
+      border-radius: 3px;
+    }
+    
+    .job a:hover {
+      background-color: #306ad1;
+    }
+    
+    .company-list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+    }
+    
+    .company {
+      background-color: #d3c2ab;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    
+    .company img {
+      max-width: 100px;
+      margin-bottom: 10px;
+    }
+    
+    .company h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    
+    .company p {
+      margin-bottom: 5px;
+    }
+    
+    .company a {
+      display: inline-block;
+      background-color: #4286f4;
+      color: #d3c2ab;
+      text-decoration: none;
+      padding: 5px 10px;
+      border-radius: 3px;
+    }
+    
+  /* ...Previous CSS code... */
+
+#spotlight {
+  height: 100 ;
+  margin-top: 30px;
+}
+
+#spotlight h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.company-bar {
+
+  overflow-x: auto;
+  white-space: nowrap;
+  padding-bottom: 10px;
+}
+
+.company-row {
+  height: 50;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+}
+
+.company {
+  height: 100px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.company img {
+  max-width: 120px;
+  margin-bottom: 10px;
+}
+
+.company h3 {
+  font-size: 16px;
+  margin: 0;
+  text-align: center;
+  width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+ 
+
+
+/* ...Previous CSS code... */
+
+.slider-controls {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.slider-controls button {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 5px 10px;
+  background-color: #4286f4;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.slider-controls button:hover {
+  background-color: #306ad1;
+}
+
+
+/* ...media queries... */
+
+@media screen and (max-width: 757px) {
+  #Logoimage {
+    margin-top: 33px;
+    margin-left: -46px;
+    width: -webkit-fill-available;
+}
+section.main{
+  display: none;
+}
+}
+
+.hidden {
+  display: none;
+}
+#mask {
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#modal {
+  background: #fff;
+  width: 50%;
+  padding: 24px;
+  border-radius: 4px;
+  color: red;
+  position: fixed;
+  top: 50%;
+  left: 10%;
+  right: 10%;
+  text-align: center;
+  margin: 0 auto;
+  z-index: 2;
+}
+#element_to_pop_up { display:none; }
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+}
+
+
+#product-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+  width: 250px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product-name {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.product img {
+  width: 150px;
+  height: 150px;
+}
+
+.product h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.product p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #777;
+}
+#product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#search-bar {
+  margin-bottom: 20px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-container input,
+.search-container button {
+  margin: 5px;
+}
+.job-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  background: #6E6D70;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(15, 100, 226, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+  color: #DFDEDF;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.job-apply {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  background: #04AA6D;
+  box-shadow: 0px 0.5px 1px rgba(5, 207, 32, 0.1), inset 0px 0.5px 0.5px rgba(15, 219, 49, 0.5), 0px 0px 0px 0.5px rgba(14, 212, 47, 0.12);
+  color: #DFDEDF;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.product-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.product-buttons button {
+  margin: 5px;
+}
